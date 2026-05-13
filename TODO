@@ -1,0 +1,10 @@
+[] faire code propre (dans Pyflowgo_inverse.py)
+
+[] faire multi interface (1 avec bouton et entrées de données/paramètre, 1 avec graph, 1 avec texte, 1 avec tableaux)
+
+[] fonction clear ou reload pour réinitialisé le graph et permettre de faire fonctionné à la suite
+
+[] implémenter le reste des éruptions
+
+[] fonction de calcul auto pour tout les fichiers (optionnel)
+
