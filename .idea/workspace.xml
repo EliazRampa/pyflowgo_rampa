@@ -4,38 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c8d1291-0ac7-4cb7-b453-9a8cc3ce8fef" name="Changes" comment="derniere ajout">
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/aout 2015_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/aout 2019_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/avril 2018_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/avril 2020 final_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/avril 2020 pulse 1_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/avril 2021 final_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/avril 2021 pulse 1_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/dec 2020_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/dec 2021 final_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/dec 2021 pulse 1_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/fev 2015_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/fev 2019 pulse 1_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/fev 2019_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/fev 2020 bras central_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/fev 2020 bras inf_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/janv 2017_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juil 2015_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juil 2018_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juil 2019_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juil 2023_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juill 2017_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juin 2019 bras central_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juin 2019 bras sup_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/mai 2015_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/mai 2016_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/oct 2019_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/sept 2016_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/sept 2018_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/sept 2022 pulse 1_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/sept 2022_TC_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelisation inverse/template.json" beforeDir="false" afterPath="$PROJECT_DIR$/modelisation inverse/template.json" afterDir="false" />
+    <list default="true" id="0c8d1291-0ac7-4cb7-b453-9a8cc3ce8fef" name="Changes" comment="modif github version rampa only">
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/modelisation inverse/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/results_flowgo_template_6.71m3s.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modelisation inverse/results/results_flowgo_template_6.71m3s.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +76,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.result cycle">
+  <component name="RunManager" selected="Python.inverse_final_V2">
     <configuration name="Pyflowgo_inverse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyflowgo" />
       <option name="ENV_FILES" value="" />
@@ -275,11 +246,20 @@
       <option name="project" value="LOCAL" />
       <updated>1778661841699</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modif github version rampa only">
+      <option name="closed" value="true" />
+      <created>1780564987501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780564987501</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="derniere ajout" />
-    <option name="LAST_COMMIT_MESSAGE" value="derniere ajout" />
+    <MESSAGE value="modif github version rampa only" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif github version rampa only" />
   </component>
 </project>
