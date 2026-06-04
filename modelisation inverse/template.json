@@ -1,9 +1,9 @@
 {
     "lava_name": "template",
-    "slope_file": "./modelisation inverse/slopes/profile_juil 2023.txt",
+    "slope_file": "./modelisation inverse/slopes/profile_2014.txt",
     "step_size": 10.0,
-    "effusion_rate_init": 26.86,
-    "runout_dist": 4318.64,
+    "effusion_rate_init": 6.71,
+    "runout_dist": 2033.83,
     "heat_budget_models": {
         "radiation": "basic",
         "snyder": "no",
@@ -15,8 +15,8 @@
     "models": {
         "crystallization_rate_model": "basic",
         "melt_viscosity_model": "vft",
-        "relative_viscosity_model": "mp_mueller",
-        "relative_viscosity_bubbles_model": "mader",
+        "relative_viscosity_model": "er",
+        "relative_viscosity_bubbles_model": "no",
         "yield_strength_model": "basic",
         "crust_temperature_model": "constant",
         "effective_cover_crust_model": "basic",
@@ -82,9 +82,6 @@
     "relative_viscosity_parameters": {
         "max_packing": 0.641,
         "einstein_coef": 3.27,
-        "strain_rate": 1.0,
-        "vesicle_radius": 6.4,
-        "surface_tension": 0.3,
-        "crystal_aspect_ratio": 2.5
+        "strain_rate": 1.0
     }
 }

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c8d1291-0ac7-4cb7-b453-9a8cc3ce8fef" name="Changes" comment="derniere ajout">
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/aout 2015_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/aout 2019_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/avril 2018_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/avril 2020 final_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/avril 2020 pulse 1_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/avril 2021 final_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/avril 2021 pulse 1_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/dec 2020_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/dec 2021 final_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/dec 2021 pulse 1_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/fev 2015_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/fev 2019 pulse 1_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/fev 2019_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/fev 2020 bras central_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/fev 2020 bras inf_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/janv 2017_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juil 2015_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juil 2018_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juil 2019_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juil 2023_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juill 2017_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juin 2019 bras central_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/juin 2019 bras sup_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/mai 2015_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/mai 2016_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/oct 2019_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/sept 2016_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/sept 2018_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/sept 2022 pulse 1_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/results/sept 2022_TC_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelisation inverse/template.json" beforeDir="false" afterPath="$PROJECT_DIR$/modelisation inverse/template.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EliosK3&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EliosK3/pyflowgo_rampa.git&quot;,
+    &quot;accountId&quot;: &quot;9411256e-187c-4945-a725-6d614b9ece8b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3BkaZTXbtFPJWGhCIpBCnBAWISA" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Pyflowgo_inverse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inverse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inverse_final.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inverse_final_V2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_run_and_plot_flowgo_GUI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.result cycle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/eliazrampa/Desktop/pyflowgo_rampa&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/modelisation inverse/slopes" />
+      <recent name="$PROJECT_DIR$/modelisation inverse" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modelisation inverse" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.result cycle">
+    <configuration name="Pyflowgo_inverse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyflowgo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.8 (DOWNFLOWGO-main)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pyflowgo_inverse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inverse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyflowgo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.8 (DOWNFLOWGO-main)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inverse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inverse_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyflowgo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.8 (DOWNFLOWGO-main)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inverse_final.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inverse_final_V2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyflowgo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.8 (DOWNFLOWGO-main)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inverse_final_V2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_run_and_plot_flowgo_GUI" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyflowgo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.8 (DOWNFLOWGO-main)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_run_and_plot_flowgo_GUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="result cycle" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyflowgo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.8 (DOWNFLOWGO-main)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result cycle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.inverse" />
+      <item itemvalue="Python.inverse_final_V2" />
+      <item itemvalue="Python.main_run_and_plot_flowgo_GUI" />
+      <item itemvalue="Python.result cycle" />
+      <item itemvalue="Python.Pyflowgo_inverse" />
+      <item itemvalue="Python.inverse_final" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.inverse_final" />
+        <item itemvalue="Python.Pyflowgo_inverse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c8d1291-0ac7-4cb7-b453-9a8cc3ce8fef" name="Changes" comment="" />
+      <created>1775035578978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775035578978</updated>
+    </task>
+    <task id="LOCAL-00001" summary="derniere ajout">
+      <option name="closed" value="true" />
+      <created>1778661841699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1778661841699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="derniere ajout" />
+    <option name="LAST_COMMIT_MESSAGE" value="derniere ajout" />
+  </component>
+</project>
