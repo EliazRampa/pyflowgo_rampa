@@ -68,7 +68,7 @@ PC_dict = {}
 
 
 
-def decorate(MODE):
+def decorate(MODE, erup_name):
 
     if MODE == 'mono':
         ax.set_xlabel('Distance de l\'évent en m')
@@ -92,28 +92,28 @@ def decorate(MODE):
     elif MODE == 'duo':
         ax.set_xlabel('Distance de l\'évent en m')
         ax.set_ylabel('Température en °C')
-        #fig.title('Distance en fonction Variation de la Température et de la Cristalinité à la porosité fixé à 30 % ')
+        plt.title(f'{erup_name}')
         legend_elements=[#Line2D([0], [0], marker='^', color='gray', label='TP',
-                               # markerfacecolor='g', markersize=7.5, linestyle='None'),
-                         Line2D([0], [0], marker='d', color='gray', label='valide',
-                                markerfacecolor='r', markersize=7.5, linestyle='None'),
-                         Line2D([0], [0], marker='d', color='gray', label='invalide',
-                                markerfacecolor='None', markersize=7.5, linestyle='None'),
-                         Line2D([0], [0], marker='s', color='pink', label='0%',
-                                markerfacecolor='pink', markersize=7.5, linestyle='None'),
-                         Line2D([0], [0], marker='s', color='yellow', label='10%',
-                                markerfacecolor='yellow', markersize=7.5, linestyle='None'),
-                         Line2D([0], [0], marker='s', color='black', label='20%',
-                                markerfacecolor='black', markersize=7.5, linestyle='None'),
-                         Line2D([0], [0], marker='s', color='red', label='30%',
-                                markerfacecolor='red', markersize=7.5, linestyle='None'),
-                         Line2D([0], [0], marker='s', color='purple', label='40%',
-                                markerfacecolor='purple', markersize=7.5, linestyle='None'),
-                         Line2D([0], [0], marker='s', color='green', label='50%',
-                                markerfacecolor='green', markersize=7.5, linestyle='None'),
-                         Line2D([0], [0], marker='s', color='cyan', label='60%',
-                                markerfacecolor='cyan', markersize=7.5, linestyle='None'),
-                         Line2D([0], [0], color='b', label='front de l\'event', linestyle='--')]
+            # markerfacecolor='g', markersize=7.5, linestyle='None'),
+            Line2D([0], [0], marker='d', color='gray', label='valide',
+                   markerfacecolor='r', markersize=7.5, linestyle='None'),
+            Line2D([0], [0], marker='d', color='gray', label='invalide',
+                   markerfacecolor='None', markersize=7.5, linestyle='None'),
+            Line2D([0], [0], marker='s', color='pink', label='0%',
+                   markerfacecolor='pink', markersize=7.5, linestyle='None'),
+            Line2D([0], [0], marker='s', color='yellow', label='10%',
+                   markerfacecolor='yellow', markersize=7.5, linestyle='None'),
+            Line2D([0], [0], marker='s', color='black', label='20%',
+                   markerfacecolor='black', markersize=7.5, linestyle='None'),
+            Line2D([0], [0], marker='s', color='red', label='30%',
+                   markerfacecolor='red', markersize=7.5, linestyle='None'),
+            Line2D([0], [0], marker='s', color='purple', label='40%',
+                   markerfacecolor='purple', markersize=7.5, linestyle='None'),
+            Line2D([0], [0], marker='s', color='green', label='50%',
+                   markerfacecolor='green', markersize=7.5, linestyle='None'),
+            Line2D([0], [0], marker='s', color='cyan', label='60%',
+                   markerfacecolor='cyan', markersize=7.5, linestyle='None'),
+            Line2D([0], [0], color='b', label='front de la coulée', linestyle='--')]
         fig.legend(handles=legend_elements, bbox_to_anchor=(1,1))
     elif MODE == 'multi':
         legend_elements=[Line2D([0], [0], marker='x', color='g', label='groupe valide',
@@ -142,7 +142,7 @@ def createWindow():
 
     var_button = tk.IntVar()
     checkbutton = tk.Checkbutton(root, text="loop through all", variable=var_button,
-                             onvalue=1, offvalue=0)
+                                 onvalue=1, offvalue=0)
 
     def selectProfile():
         profil = box.get()
@@ -414,7 +414,7 @@ def createWindow():
                 list_P = []
 
                 MODE = 'duo'
-                decorate(MODE)
+                decorate(MODE, value)
                 with open(json_file) as data_file:
                     data = json.load(data_file)
                 config=data
@@ -490,7 +490,7 @@ def createWindow():
                             posi_minus = (posi * 0.70)
                             err_plus =  posi_plus - posi
                             err_minus = posi - posi_minus
-                            if dist >= posi_minus and dist <= posi_plus:
+                            if dist >= posi_minus and dist <= posi_plus and T >= 1120 and T<=1175:
                                 cle = T
                                 list_C.append(C)
                                 marker, cap, bar = ax.errorbar(posi, T, xerr=(err_minus, err_plus), marker='d', mfc=colo[i], mec=colo[i], ecolor=colo[i], capsize = 2)
@@ -498,9 +498,9 @@ def createWindow():
                             else:
                                 ax.scatter(posi, T, marker='d', mfc='None', mec=colo[i])
                         #if cle == T:
-                            #TC_dict[cle]=list_C
+                        #TC_dict[cle]=list_C
                     list_C = []
-                    plt.savefig(f'./modelisation inverse/results 2/{value}_TC_V2_.png')
+                    plt.savefig(f'./modelisation inverse/results 2/{value}_er_.png')
                     time.sleep(5)
                     ax.clear()
 
@@ -552,8 +552,8 @@ def createWindow():
             list_C = []
             list_P = []
             MODE = 'duo'
-            decorate(MODE)
             value = box.get()
+            decorate(MODE, value)
             with open(json_file) as data_file:
                 data = json.load(data_file)
             config=data
@@ -561,8 +561,6 @@ def createWindow():
             dist_minus = dist * (1-0.30)
             dist_plus = dist * (1+0.30)
             ax.axvline(dist, alpha = 0.5, color='b', linestyle = '--')
-            ax.axhline(1120, alpha = 0.5, color='b', linestyle='--')
-            ax.axhline(1175, alpha = 0.5, color='b', linestyle='--')
             colo = ['pink','yellow','black','red','purple','green','cyan']
             if para == 'TP':
                 for T in range(1100,1205,5):
@@ -628,7 +626,7 @@ def createWindow():
                         posi_plus = (posi * 1.3)
                         posi_minus = (posi * 0.70)
                         error = (1.3*posi) - posi
-                        if dist >= posi_minus and dist <= posi_plus:
+                        if dist >= posi_minus and dist <= posi_plus and T >= 1120 and T<=1175:
                             cle = T
                             list_C.append(C)
                             plt.errorbar(posi, T, xerr=error, marker='d', mfc=colo[i], mec=colo[i], ecolor=colo[i])
@@ -642,7 +640,7 @@ def createWindow():
                     if cle == T:
                         TC_dict[cle]=list_C
                         list_C = []
-                plt.savefig(f'./modelisation inverse/results/{value}_TC_V2.png')
+                plt.savefig(f'./modelisation inverse/results/{value}_er.png')
                 time.sleep(0.5)
                 ax.clear()
                 playsound3.playsound('./modelisation inverse/ding.mp3')
@@ -717,4 +715,3 @@ def createWindow():
 
 
 createWindow()
-
